@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.controls {
+  width: 30vw;
+}
+
+/* .output {
+  width: 40vw;
+} */
+
+.box {
+  height: 50vh;
+  width: 30vw;
+  background-color: blueviolet;
+  color: white;
+}
+
+@media (max-width: 580px) {
+  .app {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

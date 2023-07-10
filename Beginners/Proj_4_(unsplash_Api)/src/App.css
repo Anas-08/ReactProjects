@@ -1,0 +1,43 @@
+.app {
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 1px 1px 5px gray;
+  margin: 10px 7%;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.input {
+  width: 60%;
+  padding: 4px;
+}
+
+.gallery {
+  margin: 10px 7%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.item {
+  width: 40%;
+  margin: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button {
+  padding: 4px 14px;
+  cursor: pointer;
+}
+
+/* .item:hover {
+  scale: 1.1;
+  transition: 3s;
+} */
