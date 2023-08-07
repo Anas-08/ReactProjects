@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+main {
+  min-height: 100vh;
+  background-color: lightblue;
+  max-width: 1020px;
+  margin: 0 auto;
+  padding-inline: 20px;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  /* justify-content: center; */
+}
+
+.searchBar input {
+  /* width: 300px; */
+  /* min-height: 50%; */
+  margin: 10px auto;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  background-color: aquamarine;
+}
+
+.location-box {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+
+  font-size: 22px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+.country-name {
+  font-size: 24px;
+  font-weight: 550;
+}
+.date,
+.weather-type {
+  font-style: italic;
+}
+
+.weather-box {
+  padding: 50px 70px;
+  background-color: bisque;
+  border-radius: 8px;
+  font-size: 24px;
+}
