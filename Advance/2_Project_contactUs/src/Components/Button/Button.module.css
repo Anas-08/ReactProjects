@@ -1,0 +1,36 @@
+.btn_primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  font-size: 14px;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 4px;
+  max-width: 229px;
+  background-color: black;
+  /* border: none; */
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn_second {
+  cursor: pointer;
+  /* margin-top: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  font-size: 14px;
+  color: white;
+  padding: 12px 10px;
+  border-radius: 4px;
+  /* max-width: 249px; */
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  text-transform: uppercase;
+  width: 100%;
+}

@@ -1,0 +1,16 @@
+.contactContainer {
+  margin-inline: 20px;
+}
+.heading {
+  /* margin-top: 30px; */
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 750;
+}
+
+.para {
+  color: #5a5959;
+  font-size: 14px;
+  font-weight: 550;
+  max-width: 80%;
+}
